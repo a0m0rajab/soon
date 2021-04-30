@@ -4,7 +4,7 @@ const hour = minute * 60;
 const day = hour * 24;
 let showTime;
 
-let countDown = new Date(2021, 03, 30, 19).getTime(),
+let countDown = new Date(2021, 03, 30, 18).getTime(),
   x = setInterval(function () {
 
     let now = new Date().getTime(),
